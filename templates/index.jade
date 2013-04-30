@@ -1,0 +1,29 @@
+html(lang='en')
+    head
+        block head
+            meta(charset='utf-8')
+            title Fxrm Pieces
+
+            link(rel='stylesheet',href='assets/flat-ui/css/bootstrap.css')
+            link(rel='stylesheet',href='assets/flat-ui/css/flat-ui.css')
+            link(rel='stylesheet',href='assets/theme.css')
+
+            // @todo: this
+            link(rel="icon", type="image/x-icon", href="about:blank")
+
+            script(type="text/javascript", src='assets/pieces.js')
+
+    body
+        .wrap
+            .container
+                .page-header
+                    h1 Fxrm Pieces
+
+                p Hello World
+
+        footer
+            .container
+                .row
+                    .span12
+                        p &copy; #{ new Date().getFullYear() } &nbsp;
+                            a(href='http://github.com/unframework') unframework on github.com
